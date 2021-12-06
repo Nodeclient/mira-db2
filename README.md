@@ -2,6 +2,8 @@
 Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 
 
+[download sample database](./test_databases.7z)
+
 ---
 **All Test command's and connection string's :** 
 
