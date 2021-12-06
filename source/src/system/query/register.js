@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DB_COM_UPDATE = exports.DB_COM_UNIQUE = exports.DB_COM_SELECT = exports.DB_COM_RENAME = exports.DB_COM_LIST = exports.DB_COM_DROP = exports.DB_COM_DELETE = exports.DB_COM_CREATE = exports.DB_COM_ADD = exports.DB_COM_SUPER = void 0;
+var super_1 = require("./commands/super");
+Object.defineProperty(exports, "DB_COM_SUPER", { enumerable: true, get: function () { return super_1.DB_COM_SUPER; } });
+var add_1 = require("./commands/add");
+Object.defineProperty(exports, "DB_COM_ADD", { enumerable: true, get: function () { return add_1.DB_COM_ADD; } });
+var create_1 = require("./commands/create");
+Object.defineProperty(exports, "DB_COM_CREATE", { enumerable: true, get: function () { return create_1.DB_COM_CREATE; } });
+var delete_1 = require("./commands/delete");
+Object.defineProperty(exports, "DB_COM_DELETE", { enumerable: true, get: function () { return delete_1.DB_COM_DELETE; } });
+var drop_1 = require("./commands/drop");
+Object.defineProperty(exports, "DB_COM_DROP", { enumerable: true, get: function () { return drop_1.DB_COM_DROP; } });
+var list_1 = require("./commands/list");
+Object.defineProperty(exports, "DB_COM_LIST", { enumerable: true, get: function () { return list_1.DB_COM_LIST; } });
+var rename_1 = require("./commands/rename");
+Object.defineProperty(exports, "DB_COM_RENAME", { enumerable: true, get: function () { return rename_1.DB_COM_RENAME; } });
+var select_1 = require("./commands/select");
+Object.defineProperty(exports, "DB_COM_SELECT", { enumerable: true, get: function () { return select_1.DB_COM_SELECT; } });
+var unique_1 = require("./commands/unique");
+Object.defineProperty(exports, "DB_COM_UNIQUE", { enumerable: true, get: function () { return unique_1.DB_COM_UNIQUE; } });
+var update_1 = require("./commands/update");
+Object.defineProperty(exports, "DB_COM_UPDATE", { enumerable: true, get: function () { return update_1.DB_COM_UPDATE; } });
+//# sourceMappingURL=register.js.map
