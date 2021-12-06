@@ -96,7 +96,7 @@ const connection = new MIRA.DATABASE({
 //Example DB_COM_ADD
     const _add: MIRA.DB_COM_ADD = new MIRA.DB_COM_ADD(connection);
     
-    /* Example Static Types
+    /* Example Static Column Types
        _add.static.types = {
            number: ["pass"]
        };
