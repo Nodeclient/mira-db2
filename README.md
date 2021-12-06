@@ -3,7 +3,7 @@ Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 
 
 ---
-**All Test Command's and connection qurys objects :** 
+**All Test command's and connection string's :** 
 
 #### CREATE NEW CONNECTION 
 ``` js
