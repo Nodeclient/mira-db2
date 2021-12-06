@@ -100,7 +100,7 @@ const connection = new MIRA.DATABASE({
        _add.static.types = {
            number: ["pass"]
        };
-    /*
+    */
  
      //Example Add row query
      _add.table.row({ table: "person", column: { user:`user-1`,pass:`pass${ Date.now()}`,mail: `test@my.net`} }, (data: any) => {
