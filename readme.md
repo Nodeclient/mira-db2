@@ -1,9 +1,11 @@
-# mira-db2
-
+# mira-db2 Public Test
 Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 
-**All Test Command's and connection qurys objects :** 
 
+[download sample database](./test_databases.7z)
+
+---
+**All Test command's and connection string's :** 
 
 #### CREATE NEW CONNECTION 
 ``` js
@@ -94,11 +96,11 @@ const connection = new MIRA.DATABASE({
 //Example DB_COM_ADD
     const _add: MIRA.DB_COM_ADD = new MIRA.DB_COM_ADD(connection);
     
-    /* Example Static Types
+    /* Example Static Column Types
        _add.static.types = {
            number: ["pass"]
        };
-    /*
+    */
  
      //Example Add row query
      _add.table.row({ table: "person", column: { user:`user-1`,pass:`pass${ Date.now()}`,mail: `test@my.net`} }, (data: any) => {
