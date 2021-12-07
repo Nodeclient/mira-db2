@@ -11,7 +11,10 @@ Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 ``` js
 process.env.CACHE_SIZE = "200";
 
-import * as MIRA from './mira2/main';
+ //IMPORT MODULE
+ // Typescript --> import * as MIRA from './mira2/main';
+ // Javascript --> const MIRA = require('./mira2/main');
+
 const connection = new MIRA.DATABASE({
     location: `${__dirname}/databases`,
     option: {
@@ -31,7 +34,9 @@ const connection = new MIRA.DATABASE({
      });
      
      //Example set new user permissions
-     _super.table.permissions = {ADD:true,DELETE:false... }
+     _super.table.permissions = { 
+      SELECT: true, ADD: true, UNIQUE: true, UPDATE: true, RENAME: true, DROP: true, DELETE: true, CREATE: true, LIST: true 
+     }
      
     //Example create new database user
      _super.user.add({
