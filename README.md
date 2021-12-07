@@ -7,13 +7,10 @@ Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 ---
 **All Test command's and connection string's :** 
 
-#### CREATE NEW CONNECTION 
+#### SAMPLE  
 ``` js
 process.env.CACHE_SIZE = "200";
-
- //IMPORT MODULE
- // Typescript --> import * as MIRA from './mira2/main';
- // Javascript --> const MIRA = require('./mira2/main');
+const MIRA = require('./mira2/dist/main');
 
 const connection = new MIRA.DATABASE({
     location: `${__dirname}/databases`,
@@ -23,7 +20,15 @@ const connection = new MIRA.DATABASE({
         database: "test1_db"
     }
 });
+
+const _select = new MIRA.DB_COM_SELECT(connection);
+_select.select.table(["person"]).all((data) => {
+    console.log(">>",data);
+});
+
 ```
+
+
 
 #### SUPER (only databese admin command)
 ``` js
