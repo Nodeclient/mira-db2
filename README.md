@@ -10,7 +10,7 @@ Mira Database `v2.0` non-complate alpha-1 public test version (2021)
 #### SAMPLE  
 ``` js
 process.env.CACHE_SIZE = "200";
-const MIRA = require('./mira2/dist/main');
+const MIRA = require('./mira2/main');
 
 const connection = new MIRA.DATABASE({
     location: `${__dirname}/databases`,
