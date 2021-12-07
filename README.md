@@ -30,7 +30,7 @@ _select.select.table(["person"]).all((data) => {
 
 
 
-#### SUPER (only databese admin command)
+#### SUPER (databese admin commands)
 ``` js
      const _super: MIRA.DB_COM_SUPER = new MIRA.DB_COM_SUPER(connection);
      //Example list database users
