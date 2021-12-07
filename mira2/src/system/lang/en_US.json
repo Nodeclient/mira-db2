@@ -1,0 +1,55 @@
+{
+    "01x00e01":{ "status": true, "code": 100, "message": "DONE" },
+    "01x00e03":{ "status": false, "code": 300, "message": "END" },
+    "01x00e02":{ "status": true, "code": 1,   "message": "READING" },
+    "01x00e04":{ "status": true, "code": 200, "message": "PART_DONE" },
+    "05x11j93":{ "status": true, "code": 400, "message": "BUILD_DONE" },
+    "01x32e63":{ "status": false, "code": 1922, "message": "UNKNOW_PROPERTY" },
+    "01x32e33":{ "status": false, "code": 1244, "message": "UNKNOW_PARAMETER" },
+    "01x12f54":{ "status": false, "code": 1897, "message": "USER_ACCESS_FAILED" },
+    "01x42e64":{ "status": false, "code": 1852, "message": "DATABASE_NOT_EXIST" },
+    "01x42e55":{ "status": false, "code": 1852, "message": "TABLE_NOT_EXIST" },
+    "01x82e84":{ "status": false, "code": 1840, "message": "DATABASE_ACCESS_FAILED" },
+
+    "02x12k44":{ "status": false, "code": 1032, "message": "field does not exist." },
+    "02x13k45":{ "status": false, "code": 1033, "message": "field is empty." },
+    "02x23k56":{ "status": false, "code": 1035, "message": "field size too large (max: 32b)" },
+    "02x43k63":{ "status": false, "code": 1046, "message": "field size too large (max: 64b)" },
+    "02x55k22":{ "status": false, "code": 1047, "message": "field size too large (max: 128b)" },
+    "02x11k23":{ "status": false, "code": 1048, "message": "field size too large (max: 256b)" },
+    "02x51k13":{ "status": false, "code": 1049, "message": "field size too large (max: 512b)" },
+    "02x81k03":{ "status": false, "code": 1055, "message": "field size too large (max: 1024b)" },
+    "02x45k04":{ "status": false, "code": 1056, "message": "field size too large (max: 2048b)" },
+    "02x52k32":{ "status": false, "code": 1060, "message": "field allow only <number>" },
+    "02x94k65":{ "status": false, "code": 1061, "message": "field allow only <string>" },
+    "02x91k15":{ "status": false, "code": 1062, "message": "field allow only <object>" },
+    "02x93k25":{ "status": false, "code": 1063, "message": "field allow only <buffer>" },
+    "02x33k21":{ "status": false, "code": 1064, "message": "field allow only <bigint>" },
+
+    "03x31k21":{ "status": false, "code": 115, "message": "FOLDER_OPEN_FAILED" },
+    "03x31k22":{ "status": false, "code": 115, "message": "FOLDER_ACCESS_FAILED" },
+    "03x31k23":{ "status": false, "code": 215, "message": "SYSTEM_FILE_ZERO" },
+    "03x31k24":{ "status": false, "code": 204, "message": "FILE_ACCESS_FAILED" },
+    "03x31k25":{ "status": false, "code": 110, "message": "SYSTEM_FILE_ACCESS_FAILED" },
+    "03x31k26":{ "status": false, "code": 215, "message": "SYSTEM_FILE_EMPTY" },
+    "03x31k27":{ "status": false, "code": 377, "message": "FAILED_PATH" },
+    "03x31k28":{ "status": false, "code": 105, "message": "EMPTY_SIZE" },
+    "03x34k41":{ "status": false, "code": 105, "message": "I/O_WRITE_ERROR" },
+
+    "03x23h41":{ "status": false, "code": 3511, "message": "INVALID_CHARACTER" },
+    "03x23h22":{ "status": false, "code": 3071, "message": "INVALID_TABLE_TYPE" },
+    "03x63h52":{ "status": false, "code": 3081, "message": "INVALID_COLUMN_TYPE" },
+    "03x13h12":{ "status": false, "code": 3083, "message": "NULL_ARRAY" },
+    "03x14h13":{ "status": false, "code": 67, "message": "NULL_OBJECT" },
+
+    "03x74h32":{ "status": false, "code": 4698, "message": "TABLE_ALREADY_EXIST" },
+    "03x74h35":{ "status": false, "code": 6188, "message": "DATABASE_NOT_FOUND" },
+
+    "04x74h15":{ "status": false, "code": 67, "message": "INVAILED_OBJECT_TYPE" },
+    "04x74h12":{ "status": false, "code": 68, "message": "INVAILED_ARRAY_TYPE" },
+    "04x70h11":{ "status": false, "code": 64, "message": "INVAILED_STRING_TYPE" },
+
+    "04x56h90":{ "status": false, "code": 6908, "message": "DATABASE_ALREADY_EXIST" },
+    "04x26h93":{ "status": false, "code": 6607, "message": "DB_STORAGE_ALREADY_EXIST" }
+
+}
