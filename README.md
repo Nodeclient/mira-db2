@@ -34,7 +34,9 @@ const connection = new MIRA.DATABASE({
      });
      
      //Example set new user permissions
-     _super.table.permissions = {ADD:true,DELETE:false... }
+     _super.table.permissions = { 
+      SELECT: true, ADD: true, UNIQUE: true, UPDATE: true, RENAME: true, DROP: true, DELETE: true, CREATE: true, LIST: true 
+     }
      
     //Example create new database user
      _super.user.add({
